@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1047835485424160}
+  m_IsPrefabParent: 1
+--- !u!1 &1047835485424160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4565648205291638}
+  - component: {fileID: 114781824604860686}
+  m_Layer: 0
+  m_Name: Platform Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4565648205291638
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047835485424160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -4.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114781824604860686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047835485424160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccb1d5e77758fc4e827b7b3c4522bc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformPrefabs:
+  - {fileID: 114870200705110740, guid: f4f3ab571fd34b743aefd4207a439639, type: 2}
+  - {fileID: 114458917281539218, guid: eb199bdef0098474eb18d84ceee63b97, type: 2}
+  challengePrefabs:
+  - {fileID: 114714381427590048, guid: 61b60fba737082142bf05a14274f9388, type: 2}
+  - {fileID: 114998974381478680, guid: 44915df77db9be54c86e94fb9b43d3c9, type: 2}
+  - {fileID: 114382318479498220, guid: 4993536c5e8cbc44a85f2dc6598afe03, type: 2}
+  - {fileID: 114673501226574208, guid: 58a1114fe06b78649a6a8bce1e52f12b, type: 2}
+  - {fileID: 114211308243150486, guid: 5e14b035ade6bfc4a82a0843ab3eef73, type: 2}
+  - {fileID: 114346234760726260, guid: e6e9efb01b13b384aaf79a69839c1493, type: 2}
+  - {fileID: 114041701280358408, guid: 4e1ff24e0b9095a419eed8061a003941, type: 2}
+  - {fileID: 114166304736673862, guid: aeee7ade316c77f4a9d5a0ae1e380b5b, type: 2}
+  despawnX: -40
+  spawnX: 40
+  challengePercentage: 0.2
+  platforms: []
