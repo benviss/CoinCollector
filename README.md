@@ -7,6 +7,8 @@ Don't collect the coins?
 
 -Flame wall is insta death
 
+Sound fun? Play the game at: https://www.kongregate.com/games/fostermatt82/coin-collector
+
 This is our first Game Jam. Hope you enjoy! P.S. Our artist called in sick :(
 
 ## Created By
